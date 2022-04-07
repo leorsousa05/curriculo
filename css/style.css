@@ -1,3 +1,8 @@
+@font-face {
+    font-family: gotham;
+    src: url(/fonts/GOTHAM-BLACK.OTF);
+};
+
 /* Resets */
 *, *::after, *::before
 {
@@ -426,6 +431,25 @@ footer a
     #contatos
     {
         font-size: 15px;
+    }
+
+    .space{
+        padding:10px;
+    }
+
+    footer a
+    {
+        font-size: 1.9rem;
+    }
+
+    footer li
+    {
+        padding: 20px;
+    }
+
+    footer h2
+    {
+        padding: 20px 0 0 0;
     }
 }
 
